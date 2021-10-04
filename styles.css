@@ -1,0 +1,215 @@
+body{
+    background-color:lightblue;
+    margin:0;
+    padding: 0;
+    }
+
+body header nav{
+    width: 100%;
+    background-color:cornflowerblue;
+    border-top: 4px solid lightgreen;
+    border-bottom: 4px solid lightgreen;
+    }
+
+
+#home-page header h1{
+    text-align: center;
+    color:lightgreen;
+    background-color: black;
+    margin: 0;
+    padding: 0.5em;
+    text-decoration: underline;
+}
+#home-page article h2{
+    background-color:cornflowerblue;
+    border: 2px solid lightgreen;
+    text-align: center;
+    margin-right: 3em;
+    margin-left: 3em;
+    border-radius: 1em;
+}
+
+
+
+    nav ul{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        }
+
+    nav ul li{
+  
+        background-color:cornflowerblue;
+        padding: 0.5rem;
+        margin: 0.5em;
+        border-radius: 2em;
+        transition: ease-in 0.3s;
+        
+        }
+
+    nav ul li:hover{
+         background-color:lightblue;
+         font-size: 1.2em;
+        }
+
+    nav ul li a{
+        text-decoration: none;
+        }
+
+
+body header h1{
+    text-align: center;
+    color:lightgreen;
+    background-color: black;
+    margin: 0;
+    padding: 0.5em;
+    text-decoration: underline;
+    }
+
+
+#kracht-page section:nth-child(1) h2{
+    color: palevioletred;
+    background-color:darkblue;
+    width: 10em;
+    margin: auto;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    border-radius: 1em;
+    }
+        
+#kracht-page section:nth-child(1) p{
+    background-color: cornflowerblue;
+    border: 4px solid lightgreen;
+    padding-left: 0.5em;
+   
+    }
+
+
+
+#kracht-page article section:nth-child(2) h2{
+    display: flex;
+    justify-content:left;
+    background-color:cornflowerblue;
+    border: 4px solid lightgreen;
+    padding-left: 0.5em;
+    }
+
+#kracht-page section:nth-child(2) ol{
+    background-color:cornflowerblue;
+    border: 4px solid lightgreen;
+    }
+
+#kracht-page section:nth-child(2) h3{
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+    color: palevioletred;
+    margin-right: auto;
+}
+
+#kracht-page section:nth-child(2) p{
+    background-color: cornflowerblue;
+    border: 4px solid lightgreen;
+    padding-left: 0.5em;
+}
+
+#personal-training-page section h2{
+    display: flex;
+    justify-content: center;
+    color: palevioletred;
+    background-color:darkblue;
+    width: 10em;
+    margin: auto;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+#personal-training-page section h2{
+    display: flex;
+    justify-content: center;
+    color: palevioletred;
+    background-color:darkblue;
+    width: 10em;
+    margin: auto;
+    margin-top: 1em;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+#personal-training-page section p{
+    
+    border: 4px solid palevioletred;
+    font-size: 1.5em;
+    }
+
+main section:nth-of-type(3) button{
+    background-color: lightgreen;
+}
+
+#personal-training-page section:nth-of-type(2) ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-right: 2.5em;
+    margin-top: 2em;
+    }
+
+#personal-training-page section:nth-of-type(2) ul li{
+    background-color: lightgreen;
+    padding: 0.5em;
+    border-radius: 2em;
+    border: solid 2px palevioletred;
+}
+
+
+
+
+#personal-training-page em{
+    text-decoration: underline;
+}
+
+
+
+#personal-training-page section:last-of-type p{
+    background-color: cadetblue;
+    border: 4px dotted palevioletred;
+
+}
+
+#contact-page h2{
+    display: flex;
+    justify-content: center;
+    background-color: palevioletred;
+    margin-left: 3em;
+    margin-right: 3em;
+    border-radius: 2em;
+ 
+
+}
+
+
+
+
+footer nav{
+    width: 100%;
+    background-color:cornflowerblue;
+    border-top: 4px solid lightgreen;
+    border-bottom: 4px solid lightgreen;
+}
+
+
+#home-page article img{
+    width: 100%;
+    margin-top: 0.5em;
+    height: 100%;
+    border: lightgreen solid 4px;
+
+}
+
+     
+section img{
+    width: 15em;
+}
